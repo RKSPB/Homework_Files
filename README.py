@@ -1,8 +1,3 @@
-# with open("menu.txt", "r", encoding="utf8") as f:
-#     text = f.read()
-# print(text)
-
-# cook_book = {}
 from pprint import pprint
 with open("menu.txt", "r", encoding="utf8") as text:
     cook_book = {}
